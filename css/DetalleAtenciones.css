@@ -1,0 +1,29 @@
+.contacto{
+    height: 100vh;
+    width: 100wh;
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+
+body  {
+    background-image: url("../img/fondohomesi");
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.barra{
+    background-color: transparent !important;
+    
+  }
+a{
+    color: white !important;
+ }
+.form-contact{
+    color: white;
+    padding: 24px;
+    padding-left:4rem; 
+}
+
+.icon{
+    width:3rem;
+}

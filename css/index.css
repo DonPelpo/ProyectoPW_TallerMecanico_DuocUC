@@ -20,7 +20,15 @@ body  {
   }
 a{
     color: white !important;
+
  }
+
+ 
+ .dropdown-item{
+
+  color: black !important;
+}
+
 
 .carousel{
   width: 80vw;
