@@ -1,46 +1,45 @@
-
-
-body  {
-    background-image: url("../img/fondohomesi");
-    background-color: black ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-  
-
-.inicio{
-    height: 100vh;
-    width: 100wh;
-    background-color: rgba(0, 0, 0, 0.5);   
+body {
+  background-image: url("../img/fondohomesi");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.barra{
-    background-color: transparent !important;
-    
-  }
-a{
-    color: white !important;
 
- }
+.inicio {
+  height: 100vh;
+  width: 100wh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
- 
- .dropdown-item{
+.barra {
+  background-color: transparent !important;
+
+}
+
+a {
+  color: white !important;
+
+}
+
+
+.dropdown-item {
 
   color: black !important;
 }
 
 
-.carousel{
+.carousel {
   width: 80vw;
 
 }
 
-.carusel{
+.carusel {
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.icon{
-  width:3rem;
+.icon {
+  width: 3rem;
 }
