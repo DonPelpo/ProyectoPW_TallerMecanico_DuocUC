@@ -32,25 +32,39 @@ a{
     max-width: 80%;
 }
 
-    /*Textos del formulario*/
-.nombretxt{
 
-    font-weight: 700;
-}
-.contratxt{
 
-    font-weight: 700;
-}
-.correotxt{
 
-    font-weight: 700;
-}
+form {
+    width: 100% !important;
+    max-width: 600px!important ;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 
-/*Partes de la validacion*/
-.warnings{
-width: 200px;
-text-align: center;
-margin: auto;
-color: #b06ab3;
-padding-top: 20px;
-}
+
+  form input {
+    width: 90% !important;
+    height: 30px !important;
+    margin: 0.5rem;
+  }
+  form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  .form-label{
+
+    color: white !important;
+
+ }
+
+ h3{
+    
+    color: black !important;
+    text-align: center;
+ }
