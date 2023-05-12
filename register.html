@@ -41,23 +41,26 @@
             </div>
         </nav>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <form method="post" action="act_comprobante_ingreso.php" style="background-color:darkgray ;"> 
-  
-            <div class="mb-3">
+        <div style="width:100vw; display:flex;justify-content:center">
+            <div style="background-color:rgba(169, 169, 169, 0.473) ;width:50vw; border-radius:1rem "> 
+                <div class="py-3">
+                    <h3>Iniciar sesión</h3>
+                </div>
 
-                <h3> Acceder  </h3>
-              <label for="exampleInputEmail1" class="form-label">Rut: </label>
-              <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="password">
-           
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" placeholder="password">
-            </div>
-            <button type="submit"  onclick="verificar()" class="btn btn-primary">Enviar</button>
+                <div class="mb-2" style="justify-content:center;display:flex">
+                    <input type="text" class="form-control" id="rut" aria-describedby="emailHelp" placeholder="Rut" required>
+                </div>
 
-            
-          </form>
+                <div class="mb-2" style="justify-content:center;display:flex">
+                    <input type="password" id="password" class="form-control" placeholder="Contraseña" required>
+                </div>
+
+                <div class="mb-2" style="justify-content:center;display:flex">
+                    <button type="submit"  onclick="verificar(document.getElementById('rut').value, document.getElementById('password').value)" class="btn btn-primary">Acceder</button>
+                </div>
+   
+            </div>
+        </div>
 </body>
 
 </html>

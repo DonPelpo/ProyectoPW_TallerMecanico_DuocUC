@@ -28,11 +28,8 @@ a{
     width:3rem;
 }
 .w-100{
-
     max-width: 80%;
 }
-
-
 
 
 form {
@@ -46,16 +43,20 @@ form {
   }
 
 
-  form input {
-    width: 90% !important;
-    height: 30px !important;
+input {
+    width: 50% !important;
+    height: 40px !important;
     margin: 0.5rem;
-  }
-  form button {
-    padding: 0.5em 1em;
+}
+
+.boton {
     border: none;
-    background: rgb(100, 200, 255);
+    background-color: rgb(100, 200, 255);
     cursor: pointer;
+    display:flex;
+    justify-content:center;
+    width: 16rem;
+    padding: 0;
   }
   .form-label{
 
