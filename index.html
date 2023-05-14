@@ -17,30 +17,36 @@
 <body>
   <main class="inicio">
 
-    <nav class="navbar navbar-expand-lg">
+
+    <!-- Barra de navegación  -->
+
+    <nav class="navbar navbar-expand-lg" style="background-color: black;">
       <div class="container-fluid">
+
         <img class="icon" src="./img/icon.png" alt="">
-        <a class="navbar-brand btn1" href="#"> Rayo Makween </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <a class="navbar-brand btn1 px-2" href="./index.html"> Rayo Makween </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" style="background-color: grey;"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            <li class="nav-item px-2">
+              <a class="nav-link item active" aria-current="page" style="padding-bottom:0" href="./index.html">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./contact.html">Contacto</a>
+            <li class="nav-item px-2">
+              <a class="nav-link item" aria-current="page" style="padding-bottom:0" href="./contact.html">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./DetalleAtenciones.html">DetalleAtenciones</a>
+            <li class="nav-item px-2">
+              <a class="nav-link item" aria-current="page" style="padding-bottom:0" href="./DetalleAtenciones.html">Detalle de atenciones</a>
             </li>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown px-2">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Servicios:
+                Servicios
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Mecánica General</a></li>
@@ -54,24 +60,31 @@
               </ul>
             </li>
 
+            <!-- 
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
 
             </form>
+            -->
+
           </ul>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./register.html">
+          <li class="nav-item p-2" style="list-style-type: none;">
+            <a class="nav-link" aria-current="page" href="./login.html">
               <button class="btn btn-outline-primary" type="submit">iniciar sesion</button>
 
             </a>
           </li>
         </div>
+
+
       </div>
     </nav>
 
+     <!-- Fin barra de navegación  -->
 
-    <div class="carusel">
+
+    <div class="carusel py-5">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">

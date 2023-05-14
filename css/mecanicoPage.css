@@ -1,4 +1,4 @@
-.administrador{
+.mecanico{
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);   
@@ -40,7 +40,7 @@ nav{
     padding-bottom: 0;
   }
 
-.active{
+  .active{
     border-bottom: 1px solid white !important;
 }
 

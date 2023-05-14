@@ -27,3 +27,6 @@ a{
 .icon{
     width:3rem;
 }
+.active{
+    border-bottom: 1px solid white !important;
+}

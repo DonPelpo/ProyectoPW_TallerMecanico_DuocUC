@@ -19,7 +19,7 @@ body {
 
 a {
   color: white !important;
-
+  padding-bottom:0;
 }
 
 
@@ -42,4 +42,16 @@ a {
 
 .icon {
   width: 3rem;
+}
+
+.active{
+  border-bottom: 1px solid white !important;
+}
+
+nav{
+  border-bottom: 1px solid #242022 !important;
+}
+
+.item{
+  padding-bottom: 0;
 }

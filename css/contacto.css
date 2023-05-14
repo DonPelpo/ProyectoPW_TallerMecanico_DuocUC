@@ -27,3 +27,16 @@ a{
 .icon{
     width:3rem;
 }
+
+.active{
+    border-bottom: 1px solid white !important;
+}
+
+.dropdown-item {
+
+    color: black !important;
+  }
+
+nav{
+    border-bottom: 1px solid #242022 !important;
+}
